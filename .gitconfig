@@ -5,7 +5,7 @@
         c = commit -v
         caf = "!git commit --amend --no-edit; git push --force-with-lease"
         o = checkout
-        d = "!f() { [ \"$GIT_PREFIX\" != \"\" ] && cd "$GIT_PREFIX"; git diff --color $@ | less --tabs=4 -RFX; }; f"
+        d = diff
         fp = fetch -p
         l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev --date=relative
         pl = pull
