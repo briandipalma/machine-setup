@@ -3,6 +3,7 @@
         ap = add -p
         b = branch
         c = commit -v
+	cm = commit -vm
         caf = "!git commit --amend --no-edit; git push --force-with-lease"
         o = checkout
         d = diff
