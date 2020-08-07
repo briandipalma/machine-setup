@@ -11,7 +11,7 @@ dir=~/.machine-setup
 # old dotfiles backup directory
 olddir=~/.old_dotfiles 
 # list of files to symlink in homedir
-files=".gitconfig .vimrc .bashrc .bash_logout .bash_profile .hyper.js"
+files=".gitconfig .vimrc .bashrc .bash_logout .bash_profile .hyper.js .zshrc"
 
 ##########
 
