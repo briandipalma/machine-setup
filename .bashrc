@@ -66,6 +66,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
 fi
 
+# For MacOSX color support
+
+export CLICOLOR=1
+
 # Added by nvm
 # ----------------------------------------------
 
