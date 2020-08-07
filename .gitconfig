@@ -20,3 +20,5 @@
 [user]
         name = Brian Di Palma
         email = briandipalma [at] outlook.com
+[pull]
+	ff = only
