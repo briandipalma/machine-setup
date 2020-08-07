@@ -58,6 +58,8 @@ fi
 
 # enable color support if dircolors is present, color option
 # fails when dircolors isn't installed e.g MacOSX
+# -----------------------------------------------
+
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -65,11 +67,26 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # Added by nvm
+# ----------------------------------------------
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Added by yarn
+# ---------------------------------------------
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Add shell completion support, based on brew's documentation
+# --------------------------------------------
+
+for COMPLETION in "/usr/local/etc/bash_completion.d/"*; do
+  [ -r "$COMPLETION" ] && \. "$COMPLETION"
+done
+
+# Setup git bash autocomplete to work with `g` alias
+# -------------------------------------------
+
+__git_complete g __git_main
+
