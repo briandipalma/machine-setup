@@ -85,9 +85,15 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # Add shell completion support, based on brew's documentation
 # --------------------------------------------
 
+# MacOSX
+
 for COMPLETION in "/usr/local/etc/bash_completion.d/"*; do
   [ -r "$COMPLETION" ] && \. "$COMPLETION"
 done
+
+# Ubuntu
+
+source /usr/share/bash-completion/completions/git
 
 # Setup git bash autocomplete to work with `g` alias
 # -------------------------------------------
