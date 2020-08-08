@@ -13,3 +13,6 @@ docker - Use instructions on website, not package manager.
 
 brew/hyper/vscode
 
+## Additional dependencies
+
+Install Fira Code 
