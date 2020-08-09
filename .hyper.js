@@ -52,7 +52,7 @@ module.exports = {
     borderColor: '#333',
 
     // custom CSS to embed in the main window
-    css: '',
+    css: '.header_shape { color: #657b83; } .header_appTitle { color: #657b83; }',
 
     // custom CSS to embed in the terminal window
     termCSS: '',
@@ -138,6 +138,9 @@ module.exports = {
     webGLRenderer: true,
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    hyper_solarized: {
+      background: 'light',
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -146,7 +149,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-snazzy", "hyper-tab-icons-plus"],
+  plugins: ["hyper-solarized"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
