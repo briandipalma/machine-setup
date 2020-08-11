@@ -52,7 +52,7 @@ module.exports = {
     borderColor: '#333',
 
     // custom CSS to embed in the main window
-    css: '.header_shape { color: #657b83; } .header_appTitle { color: #657b83; }',
+    css: '.header_shape, .tabs_title { color: #657b83; } .header_appTitle { color: #657b83; }',
 
     // custom CSS to embed in the terminal window
     termCSS: '',
