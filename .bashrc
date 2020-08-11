@@ -61,9 +61,9 @@ fi
 # -----------------------------------------------
 
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    alias grep='grep --color=auto'
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls --color=auto'
+  alias grep='grep --color=auto'
 fi
 
 # For MacOSX color support
@@ -93,7 +93,9 @@ done
 
 # Ubuntu
 
-source /usr/share/bash-completion/completions/git
+if [ -e /usr/share/bash-completion/completions/git ]; then
+  source /usr/share/bash-completion/completions/git
+fi
 
 # Setup git bash autocomplete to work with `g` alias
 # -------------------------------------------
