@@ -98,6 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Aliases
+# -------------------------------------------------
+
+alias v=vim
+
 # Yarn
 # ---------------------------------------------
 
