@@ -47,3 +47,9 @@ for file in $files; do
   fi
 done
 
+# Setup submodules and link them
+
+git submodule update --init
+
+ln --symbolic --force $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
+
