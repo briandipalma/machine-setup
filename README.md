@@ -18,3 +18,5 @@ docker - Use instructions on website, not package manager.
 
 hyper/vscode
 
+powerlevel10k
+
