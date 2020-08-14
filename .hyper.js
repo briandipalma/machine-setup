@@ -159,5 +159,12 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
+    // Remove pointless 'shift' from default keymaps
+    "tab:new": "ctrl+t",
+    // Use Linux/Windows keymaps
+    "pane:next": "ctrl+pageup",
+    "pane:prev": "ctrl+pagedown",
+    "pane:splitVertical": "ctrl+shift+d",
+    "pane:splitHorizontal": "ctrl+shift+e",
   },
 };
