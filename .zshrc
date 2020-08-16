@@ -101,7 +101,12 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 # ---------------------------------------------
 
-alias v=vim
+# vimx in Fedora/Ubuntu is compiled with clipboard support
+if ! type "vimx" > /dev/null; then
+  alias v=vim
+else
+  alias v=vimx
+fi
 
 # Yarn
 # ---------------------------------------------
