@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Aliases
-# -------------------------------------------------
+# ---------------------------------------------
 
 alias v=vim
 
@@ -107,4 +107,9 @@ alias v=vim
 # ---------------------------------------------
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Plugins configuration
+# ---------------------------------------------
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#d3d3d3"
 
