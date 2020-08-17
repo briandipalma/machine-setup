@@ -6,7 +6,9 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/vim/Fira Code font
+brew/git/Fira Code font
+
+vim/vimx - vimx comes with clipboard support in Linuxes
 
 zsh - Change default shell to zsh. Oh My Zsh GitHub wiki has instructions.
 
@@ -20,3 +22,4 @@ hyper/vscode
 
 powerlevel10k
 
+neofetch
