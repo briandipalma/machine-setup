@@ -51,5 +51,5 @@ done
 
 git submodule update --init
 
-ln --symbolic --force $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
+ln -sf $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
 
