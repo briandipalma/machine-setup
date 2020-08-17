@@ -23,3 +23,5 @@ hyper/vscode
 powerlevel10k
 
 neofetch
+
+polybar
