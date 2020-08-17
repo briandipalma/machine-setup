@@ -52,4 +52,5 @@ done
 git submodule update --init
 
 ln -sf $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
+ln -sf $dir/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins
 
