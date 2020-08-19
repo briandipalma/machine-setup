@@ -6,7 +6,16 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/Fira Code font
+brew/git
+
+fonts - as below
+
+```
+brew tap homebrew/cask-fonts
+brew cask install font-open-sans // Sans-serif
+brew cask install font-roboto-slab // Serif
+brew cask install font-fira-code-nerd-font // Monospace/code editors/terminals etc
+```
 
 vim/vimx - vimx comes with clipboard support in Linuxes
 
@@ -25,3 +34,5 @@ powerlevel10k
 neofetch
 
 polybar
+
+vimdevicons
