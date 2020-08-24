@@ -29,10 +29,10 @@ docker - Use instructions on website, not package manager.
 
 hyper/vscode
 
-powerlevel10k
-
 neofetch
 
 polybar
 
 vimdevicons
+
+neovim/the_silver_searcher/deoplete.nvim/neosolarized/mastering-zsh
