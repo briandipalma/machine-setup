@@ -16,6 +16,7 @@
         rbm = rebase master
         rbc = rebase --continue
         s = status
+        sa = submodule add
 [push]
         default = simple
 [user]
