@@ -166,5 +166,9 @@ module.exports = {
     "pane:prev": "ctrl+pagedown",
     "pane:splitVertical": "ctrl+shift+d",
     "pane:splitHorizontal": "ctrl+shift+e",
+    "editor:movePreviousWord": "ctrl+left",
+    "editor:moveNextWord": "ctrl+right",
+    "editor:deleteBeginningLine": "ctrl+home",
+    "editor:deleteEndLine": "ctrl+end",
   },
 };
