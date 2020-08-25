@@ -36,3 +36,5 @@ polybar
 vimdevicons
 
 neovim/the_silver_searcher/deoplete.nvim/neosolarized/mastering-zsh
+
+(lotabout/skim) (junegunn/fzf) (neoclide/coc.nvim) (sindresorhus/trash)
