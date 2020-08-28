@@ -129,6 +129,12 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 alias yul='yarn unlink; yarn link'
 alias yl='yarn link'
 
+# zsh options
+# ---------------------------------------------
+
+setopt CORRECT
+setopt CORRECT_ALL
+
 # Plugins configuration
 # ---------------------------------------------
 

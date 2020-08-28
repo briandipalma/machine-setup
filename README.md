@@ -38,3 +38,6 @@ vimdevicons
 neovim/the_silver_searcher/deoplete.nvim/neosolarized/mastering-zsh
 
 (lotabout/skim) (junegunn/fzf) (neoclide/coc.nvim) (sindresorhus/trash)
+
+By default, zsh will look in the root of the home directory for the user .z* files, but this behavior can be changed by setting the ZDOTDIR environment variable to another directory (e.g. ~/.zsh/) where you can then group all user zsh configuration in one place.
+(maybe machine-setup directory or config one?)
