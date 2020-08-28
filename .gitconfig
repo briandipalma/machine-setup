@@ -16,6 +16,8 @@
         rbm = rebase master
         rbc = rebase --continue
         s = status
+        sp = stash pop
+        st = stash
         sa = submodule add
 [push]
         default = simple
