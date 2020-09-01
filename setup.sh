@@ -54,4 +54,6 @@ git submodule update --init
 ln -sf $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
 ln -sf $dir/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins
 ln -sf $dir/powerlevel10k ~/.oh-my-zsh/custom/themes
+mkdir -p ~/.config/alacritty/
+ln -sf $dir/alacritty.yml ~/.config/alacritty
 

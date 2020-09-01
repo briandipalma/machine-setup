@@ -6,7 +6,7 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/lsdeluxe
+brew/git/lsdeluxe/alacritty
 
 fonts - as below
 
