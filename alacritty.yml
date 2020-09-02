@@ -1,4 +1,6 @@
 window:
+  padding:
+    x: 3
   decorations: none
   startup_mode: Maximized
 
@@ -24,17 +26,17 @@ font:
     # Style can be specified to pick a specific face.
     # style: Italic
 
-# Colors (Solarized Dark)
+# Colors (Solarized Light)
 colors:
   # Default colors
   primary:
-    background: '#002b36' # base03
-    foreground: '#839496' # base0
+    background: '#fdf6e3' # base3
+    foreground: '#657b83' # base00
 
   # Cursor colors
   cursor:
-    text:   '#002b36' # base03
-    cursor: '#839496' # base0
+    text:   '#fdf6e3' # base3
+    cursor: '#657b83' # base00
 
   # Normal colors
   normal:
