@@ -6,7 +6,7 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/lsdeluxe/alacritty
+brew/git/lsdeluxe/alacrittyi/tmux
 
 fonts - as below
 
