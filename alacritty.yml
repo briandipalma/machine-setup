@@ -63,3 +63,7 @@ colors:
 selection:
   save_to_clipboard: true
 
+key_bindings:
+  - { key: Back,     mods: Super,   chars: "\x15"                        } # delete word/line
+  - { key: Left,     mods: Alt,     chars: "\x1bb"                       } # one word left 
+  - { key: Right,    mods: Alt,     chars: "\x1bf"                       } # one word right
