@@ -11,7 +11,7 @@ dir=~/.machine-setup
 # old dotfiles backup directory
 olddir=~/.old_dotfiles 
 # list of files to symlink in homedir
-files=".gitconfig .vimrc .bashrc .bash_logout .bash_profile .hyper.js .zshrc .p10k.zsh .tmux.conf"
+files=".gitconfig .vimrc .zshrc .tmux.conf"
 
 ##########
 
@@ -53,7 +53,7 @@ git submodule update --init
 
 ln -sf $dir/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins
 ln -sf $dir/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins
-ln -sf $dir/powerlevel10k ~/.oh-my-zsh/custom/themes
 mkdir -p ~/.config/alacritty/
 ln -sf $dir/alacritty.yml ~/.config/alacritty
+ln -sf $dir/starship.toml ~/.config/
 
