@@ -6,7 +6,7 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/lsdeluxe/alacrittyi/tmux
+brew/git/lsdeluxe/alacritty/tmux/starship
 
 fonts - as below
 
@@ -27,7 +27,7 @@ Once those are installed clone and setup this repo using `setup.sh`.
 
 docker - Use instructions on website, not package manager.
 
-hyper/vscode
+vscode
 
 neofetch
 
