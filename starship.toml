@@ -4,3 +4,6 @@ use_symbol_for_status = true
 [directory]
 fish_style_pwd_dir_length = 3
 
+[memory_usage]
+disabled = false
+
