@@ -89,4 +89,5 @@ key_bindings:
   - { key: Right,       mods: Alt,           chars: "\x1bf"     } # one word right
   - { key: V,           mods: Control,       action: Paste      }
   - { key: Backslash,   mods: Control,       chars: "\x1c"      } # CTRL+\ required for Mac OS X
+  - { key: T,           mods: Control,       chars: "\x1c\x63"  } # New window in tmux
 
