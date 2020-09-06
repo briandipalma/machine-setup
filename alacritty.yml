@@ -1,14 +1,17 @@
 window:
   padding:
     x: 3
+    y: 3
+
   decorations: none
+
   startup_mode: Maximized
-  dynamic_title: true
 
 # Font configuration (changes require restart)
 font:
   # The size to use.
   size: 13
+
   # The normal (roman) font face to use.
   normal:
     family: FiraCode Nerd Font 
@@ -63,6 +66,22 @@ colors:
 
 selection:
   save_to_clipboard: true
+
+# Shell
+#
+# You can set `shell.program` to the path of your favorite shell, e.g. `/bin/fish`.
+# Entries in `shell.args` are passed unmodified as arguments to the shell.
+#
+# Default:
+#   - (macOS) /bin/bash --login
+#   - (Linux/BSD) user login shell
+#   - (Windows) powershell
+shell:
+  program: /usr/bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 
 key_bindings:
   - { key: Back,        mods: Super,         chars: "\x15"      } # delete word/line
