@@ -77,7 +77,7 @@ selection:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /usr/bin/zsh
+  program: zsh
   args:
     - -l
     - -c
