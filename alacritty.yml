@@ -90,4 +90,5 @@ key_bindings:
   - { key: V,           mods: Control,       action: Paste      }
   - { key: Backslash,   mods: Control,       chars: "\x1c"      } # CTRL+\ required for Mac OS X
   - { key: T,           mods: Control,       chars: "\x1c\x63"  } # New window in tmux
+  - { key: W,           mods: Control,       chars: "\x1c\x78"  } # Close pane in tmux
 
