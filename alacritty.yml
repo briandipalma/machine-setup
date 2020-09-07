@@ -84,11 +84,12 @@ shell:
     - "tmux attach || tmux"
 
 key_bindings:
-  - { key: Back,        mods: Super,         chars: "\x15"      } # delete word/line
-  - { key: Left,        mods: Alt,           chars: "\x1bb"     } # one word left
-  - { key: Right,       mods: Alt,           chars: "\x1bf"     } # one word right
-  - { key: V,           mods: Control,       action: Paste      }
-  - { key: Backslash,   mods: Control,       chars: "\x1c"      } # CTRL+\ required for Mac OS X
-  - { key: T,           mods: Control,       chars: "\x1c\x63"  } # New window in tmux
-  - { key: W,           mods: Control,       chars: "\x1c\x78"  } # Close pane in tmux
+  - { key: Back,        mods: Super,                  chars: "\x15"          } # delete word/line
+  - { key: Left,        mods: Alt,                    chars: "\x1bb"         } # one word left
+  - { key: Right,       mods: Alt,                    chars: "\x1bf"         } # one word right
+  - { key: V,           mods: Control,                action: Paste          }
+  - { key: Backslash,   mods: Control,                chars: "\x1c"          } # CTRL+\ required for Mac OS X
+  - { key: T,           mods: Control,                chars: "\x1c\x63"      } # New window in tmux
+  - { key: W,           mods: Control,                chars: "\x1c\x78"      } # Close pane in tmux
+  - { key: PageUp,      mods: Shift,     mode: ~Alt,  action: ScrollPageUp   }
 
