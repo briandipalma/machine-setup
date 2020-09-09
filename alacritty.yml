@@ -10,7 +10,7 @@ window:
 # Font configuration (changes require restart)
 font:
   # The size to use.
-  size: 13
+  size: 14
 
   # The normal (roman) font face to use.
   normal:
