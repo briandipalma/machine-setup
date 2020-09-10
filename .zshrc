@@ -112,6 +112,8 @@ alias l='lsd -AF --group-dirs first'
 alias ll='lsd -AFl --date "+%F %T" --group-dirs first'
 alias lt='lsd -AF --tree --group-dirs first'
 
+alias lg='lazygit'
+
 alias cd-='cd -'
 
 # Yarn

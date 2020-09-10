@@ -57,3 +57,11 @@ mkdir -p ~/.config/alacritty/
 ln -sf $dir/alacritty.yml ~/.config/alacritty
 ln -sf $dir/starship.toml ~/.config/
 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  mkdir -p ~/Library/Application\ Support/jesseduffield/lazygit
+  ln -sf $dir/lazygit-config.yml ~/Library/Application\ Support/jesseduffield/lazygit/config.yml
+else
+  mkdir -p ~/.config/jesseduffield/lazygit
+  ln -sf $dir/lazygit-config.yml ~/.config/jesseduffield/lazygit/config.yml
+fi
+

@@ -27,7 +27,7 @@ Once those are installed clone and setup this repo using `setup.sh`.
 
 docker - Use instructions on website, not package manager.
 
-vscode
+vscode/lazygit
 
 neofetch
 

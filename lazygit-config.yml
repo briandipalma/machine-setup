@@ -1,0 +1,10 @@
+gui:
+  theme:
+    lighttheme: true
+    activeBorderColor:
+      - blue
+      - bold
+    inactiveBorderColor:
+      - yellow
+
+startuppopupversion: 1
