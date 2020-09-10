@@ -32,3 +32,14 @@
 
 [pull]
   ff = only
+
+[diff]
+  colorMoved = default
+
+[core]
+  pager = delta
+
+[delta]
+  side-by-side = true
+  syntax-theme = Solarized (light)
+

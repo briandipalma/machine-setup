@@ -6,7 +6,7 @@ Setup in a fresh environment
 
 Before cloning and using this repo, install:
 
-brew/git/lsdeluxe/alacritty/tmux/starship
+brew/git/lsdeluxe/alacritty/tmux/starship/lazygit/delta
 
 fonts - as below
 
@@ -27,7 +27,9 @@ Once those are installed clone and setup this repo using `setup.sh`.
 
 docker - Use instructions on website, not package manager.
 
-vscode/lazygit
+vscode
+
+### To Investigate
 
 neofetch
 
@@ -41,3 +43,4 @@ neovim/the_silver_searcher/deoplete.nvim/neosolarized/mastering-zsh
 
 By default, zsh will look in the root of the home directory for the user .z* files, but this behavior can be changed by setting the ZDOTDIR environment variable to another directory (e.g. ~/.zsh/) where you can then group all user zsh configuration in one place.
 (maybe machine-setup directory or config one?)
+
