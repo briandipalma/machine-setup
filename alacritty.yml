@@ -89,16 +89,19 @@ key_bindings:
   - { key: Right,       mods: Alt,                    chars: "\x1bf"         } # one word right
   - { key: V,           mods: Control,                action: Paste          }
 
-  # tmux shortcuts
+ # tmux shortcuts
 
   - { key: Backslash,   mods: Control,                chars: "\x1c"          } # CTRL+\ required for Mac OS X
   - { key: T,           mods: Control,                chars: "\x1c\x63"      } # New window in tmux
   - { key: W,           mods: Control,                chars: "\x1c\x78"      } # Close pane in tmux
-  # Move to window x.
+  # Move to panel x.
   - { key: Key1,        mods: Control,                chars: "\x1c\x31" }
   - { key: Key2,        mods: Control,                chars: "\x1c\x32" }
   - { key: Key3,        mods: Control,                chars: "\x1c\x33" }
   - { key: Key4,        mods: Control,                chars: "\x1c\x34" }
   - { key: Key5,        mods: Control,                chars: "\x1c\x35" }
   - { key: Key6,        mods: Control,                chars: "\x1c\x36" }
+  # Tab around tmux windows
+  - { key: Tab,         mods: Control,                chars: "\x1c\x6e" }
+  - { key: Tab,         mods: Control|Shift,          chars: "\x1c\x70" }
 
