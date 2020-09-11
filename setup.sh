@@ -56,6 +56,8 @@ ln -sf $dir/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins
 mkdir -p ~/.config/alacritty/
 ln -sf $dir/alacritty.yml ~/.config/alacritty
 ln -sf $dir/starship.toml ~/.config/
+mkdir -p ~/.config/bat/
+ln -sf $dir/bat-config.conf ~/.config/bat/config
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   mkdir -p ~/Library/Application\ Support/jesseduffield/lazygit
