@@ -44,6 +44,9 @@ zoxide/bottom (top alternative)/ripgrep/(sharkdp/fd)/(tldr-pages/tldr)
 (wasavi/chrome extension)/(vivium/firefox extension)/(bat-extras/batman)
 (bat-extras/batgrep)/(jumpy/vs code extension)
 
+https://zaiste.net/posts/shell-commands-rust/
+https://lib.rs/command-line-utilities
+
 By default, zsh will look in the root of the home directory for the user .z* files, but this behavior can be changed by setting the ZDOTDIR environment variable to another directory (e.g. ~/.zsh/) where you can then group all user zsh configuration in one place.
 (maybe machine-setup directory or config one?)
 
