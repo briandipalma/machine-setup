@@ -119,7 +119,7 @@ alias cd-='cd -'
 # Yarn
 # ---------------------------------------------
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.cargo/bin:$PATH"
 
 alias yul='yarn unlink; yarn link'
 alias yl='yarn link'
