@@ -108,6 +108,15 @@ else
   alias v=vimx
 fi
 
+# bat in Ubuntu is named batcat due to clash with another package
+if ! type "batcat" > /dev/null; then
+  alias cat=bat
+else
+  # Currently an old version which doesn't support themes...
+  alias cat=cat
+fi
+
+
 alias l='lsd -AF --group-dirs first'
 alias ll='lsd -AFl --date "+%F %T" --group-dirs first'
 alias lt='lsd -AF --tree --group-dirs first'
