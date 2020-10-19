@@ -1,10 +1,15 @@
 gui:
   theme:
-    lighttheme: true
+    lightTheme: true
     activeBorderColor:
       - blue
       - bold
     inactiveBorderColor:
       - yellow
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --paging=never --24-bit-color=never
 
 startuppopupversion: 1
