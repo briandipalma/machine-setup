@@ -1,4 +1,20 @@
+# Setup/Installation steps
+
 https://www.servethehome.com/proxmox-ve-6-initial-installation-checklist/
+
+(Change update servers)
+
+https://www.youtube.com/watch?app=desktop&v=GoZaMgEgrHw& - Before I do anything on Proxmox, I do this first...
+
+(Enable IOMMU, in BIOS and OS, setup SMB share, setup backup job)
+
+Remove no subscription notification:
+
+https://johnscs.com/remove-proxmox51-subscription-notice/
+
+In `/usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js`
+
+## Email notificatiions
 
 Test the postfix email SMTP server is correctly configured with:
 
@@ -10,7 +26,9 @@ Seems to just work with outlook.com, for Gmail:
 
 https://forum.proxmox.com/threads/get-postfix-to-send-notifications-email-externally.59940/
 
-WoL: https://pve.proxmox.com/wiki/Proxmox_Node_Management 
+## WoL
+
+https://pve.proxmox.com/wiki/Proxmox_Node_Management 
 
 ```bash
 auto lo
@@ -27,6 +45,8 @@ iface vmbr0 inet dhcp # Should probably be static
 	bridge_stp off
 	bridge_fd 0
 ```
+
+## S.M.A.R.T
 
 Verify S.M.A.R.T disk monitoring is enabled:
 
