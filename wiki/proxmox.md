@@ -27,3 +27,7 @@ iface vmbr0 inet dhcp # Should probably be static
 	bridge_stp off
 	bridge_fd 0
 ```
+
+Verify S.M.A.R.T disk monitoring is enabled:
+
+https://pve.proxmox.com/wiki/Disk_Health_Monitoring
