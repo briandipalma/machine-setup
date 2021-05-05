@@ -1,5 +1,11 @@
 # Setup/Installation steps
 
+For automation install sudo:
+
+`su`
+`apt-get install sudo -y`
+`usermod -aG sudo yourusername`
+
 https://www.servethehome.com/proxmox-ve-6-initial-installation-checklist/
 
 (Change update servers)
