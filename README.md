@@ -6,9 +6,11 @@ Software installation and machine setup is now covered by ansible https://github
 
 Font configuration:
 
+```
 font-open-sans // Sans-serif
 font-roboto-slab // Serif
 font-fira-code-nerd-font // Monospace/code editors/terminals etc
+```
 
 docker - Use instructions on website, not package manager.
 
