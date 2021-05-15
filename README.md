@@ -1,52 +1,20 @@
 # Machine setup
 
-Setup in a fresh environment
+Software installation and machine setup is now covered by ansible https://github.com/briandipalma/ansible
 
-## Programs to install
+## Not yet covered by Ansible
 
-Before cloning and using this repo, install:
+Font configuration:
 
-brew/git/lsdeluxe/alacritty/tmux/starship.rs/lazygit/delta (git diff viewer)/bat (cat clone)
-
-fonts - as below
-
-```
-brew tap homebrew/cask-fonts
-brew cask install font-open-sans // Sans-serif
-brew cask install font-roboto-slab // Serif
-brew cask install font-fira-code-nerd-font // Monospace/code editors/terminals etc
-```
-
-vim/vimx - vimx comes with clipboard support in Linuxes
-
-zsh - Change default shell to zsh. Oh My Zsh GitHub wiki has instructions.
-
-ohmyzsh - If installing *after* setting up this repo: use `KEEP_ZSHRC=yes` to keep this repos `.zshrc` file.
-
-Once those are installed clone and setup this repo using `setup.sh`.
+font-open-sans // Sans-serif
+font-roboto-slab // Serif
+font-fira-code-nerd-font // Monospace/code editors/terminals etc
 
 docker - Use instructions on website, not package manager.
 
-vscode
-
 ### To Investigate
 
-neofetch
-
-polybar
-
-vimdevicons
-
-neovim/the_silver_searcher/deoplete.nvim/neosolarized/mastering-zsh
-
-(lotabout/skim) (junegunn/fzf) (neoclide/coc.nvim) (sindresorhus/trash)
-zoxide/bottom (top alternative)/ripgrep/(sharkdp/fd)/(tldr-pages/tldr)
-(wasavi/chrome extension)/(vivium/firefox extension)/(bat-extras/batman)
-(bat-extras/batgrep)/(jumpy/vs code extension)
-
-https://zaiste.net/posts/shell-commands-rust/
-https://lib.rs/command-line-utilities
-
-By default, zsh will look in the root of the home directory for the user .z* files, but this behavior can be changed by setting the ZDOTDIR environment variable to another directory (e.g. ~/.zsh/) where you can then group all user zsh configuration in one place.
-(maybe machine-setup directory or config one?)
-
+deoplete.nvim
+neoclide/coc.nvim
+https://github.com/bootandy/dust
+https://github.com/dbrgn/tealdeer
