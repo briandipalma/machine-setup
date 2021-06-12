@@ -57,3 +57,11 @@ iface vmbr0 inet dhcp # Should probably be static
 Verify S.M.A.R.T disk monitoring is enabled:
 
 https://pve.proxmox.com/wiki/Disk_Health_Monitoring
+
+## Terraform
+
+Run
+
+```
+pveam update
+```
